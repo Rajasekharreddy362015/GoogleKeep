@@ -1,0 +1,9 @@
+.NavigationBar {
+  background-color: white !important;
+  color: #5f6368 !important;
+  margin-bottom: 30px;
+}
+.NavigationBar-icon {
+  height: 35px;
+  margin-right: 10px;
+}

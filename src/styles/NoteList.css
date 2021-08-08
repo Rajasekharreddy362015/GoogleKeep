@@ -1,0 +1,15 @@
+.NoteList-container {
+  width: 70%;
+  margin: auto;
+}
+
+.NoteList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 600px) {
+  .NoteList-container {
+    width: 90%;
+  }
+}

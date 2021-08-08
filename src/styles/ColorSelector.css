@@ -1,0 +1,7 @@
+.Color-selector {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,78 @@
+.Note {
+  margin: 10px;
+  padding: 10px;
+  min-width: 300px;
+  min-height: 150px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.EditingForm-Input {
+  color: #16211f;
+  width: 80%;
+  border: none;
+  margin: 5px;
+  font-size: 1.2rem;
+  padding-left: 10px;
+  resize: none;
+  background-color: inherit;
+}
+.EditingForm-Input:focus {
+  letter-spacing: none;
+  outline: none;
+}
+.footer-options {
+  display: flex;
+  justify-content: space-around;
+  transition: all 0.3s;
+  opacity: 0.3;
+}
+.done-icon-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.Note:hover .footer-options {
+  opacity: 1;
+}
+.pin-button {
+  position: absolute !important;
+  display: flex;
+  top: 0;
+  right: 0;
+}
+.footer-options svg {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.footer-options svg:hover {
+  transform: scale(1.2);
+}
+.badge {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0 4px;
+}
+.badge::after {
+  content: "";
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.5)
+    transparent;
+  border-style: solid;
+  border-width: 10px;
+  right: 100%;
+  height: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .Note {
+    min-width: 100%;
+  }
+}
