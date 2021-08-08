@@ -42,10 +42,7 @@ export default function NavigationBar() {
           <Typography variant="h6" className={classes.title}>
             Keep
           </Typography>
-          <Avatar
-            alt="User Avatar"
-            src="https://material-ui.com/static/images/avatar/1.jpg"
-          />
+          <Avatar className={classes.orange}>raja</Avatar>
         </Toolbar>
       </AppBar>
     </div>
